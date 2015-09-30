@@ -9,4 +9,7 @@ Gem::Specification.new do |s|
   s.files       = ['lib/external_errors']
   s.homepage    = 'https://www.hackerone.com'
   s.license     = 'MIT'
+
+  s.add_dependency 'activemodel'
+  s.add_development_dependency 'minitest'
 end
